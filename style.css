@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    width: 100vw;
+    height: 85vh;
+    background-color: antiquewhite;
+}
+
+.container {
+    border-radius: 10px;
+}
+
+.button-grid {
+    display: grid;
+    gap: 10px;
+}
+
+.start-btn, .next-btn, .wrong {
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+.btn {
+    background-color: lightgreen;
+    color: black;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.wrong {
+    background-color: red;
+    color: white;
+}
+
+.next-btn {
+    background-color: green;
+    color: white;
+}
+
+.time {
+    font-size: 20px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
